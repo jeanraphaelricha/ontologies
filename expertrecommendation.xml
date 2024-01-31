@@ -1,0 +1,2866 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/opencems/ontologies/2022/8/expertrecommendation#"
+     xml:base="http://www.semanticweb.org/opencems/ontologies/2022/8/expertrecommendation"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:org="http://www.w3.org/ns/org#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:wot="http://xmlns.com/wot/0.1/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:lmdr="http://spider.sigappfr.org/linkedmdr/#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:query="http://www.semanticweb.org/opencems/ontologies/2022/8/query#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="http://schema.org/"
+     xmlns:userprofile="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#"
+	 xmlns:token="http://www.semanticweb.org/opencems/ontologies/2022/8/token#"
+     xmlns:expertrecommendation="http://www.semanticweb.org/opencems/ontologies/2022/8/expertrecommendation#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/expertrecommendation#">
+        <dc:description>The Friend of a Friend (FOAF) RDF vocabulary, described using W3C RDF Schema and the Web Ontology Language.</dc:description>
+        <dc:title>Friend of a Friend (FOAF) vocabulary</dc:title>
+        <terms:contributor>
+            <rdf:Description/>
+        </terms:contributor>
+        <terms:contributor>
+            <rdf:Description/>
+        </terms:contributor>
+        <terms:contributor>
+            <rdf:Description/>
+        </terms:contributor>
+        <terms:contributor>
+            <rdf:Description/>
+        </terms:contributor>
+        <terms:contributor>
+            <rdf:Description/>
+        </terms:contributor>
+        <terms:contributor>
+            <rdf:Description/>
+        </terms:contributor>
+        <terms:contributor>
+            <rdf:Description/>
+        </terms:contributor>
+        <terms:contributor>
+            <rdf:Description/>
+        </terms:contributor>
+        <terms:contributor>
+            <rdf:Description/>
+        </terms:contributor>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-05-28</terms:created>
+        <terms:creator>Nathalie Charbel</terms:creator>
+        <terms:license rdf:resource="http://www.opendatacommons.org/licenses/pddl/1.0/"/>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-09</terms:modified>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-10-08</terms:modified>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-09-30</terms:modified>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-10-06</terms:modified>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-02-15</terms:modified>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-12-16</terms:modified>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-02</terms:modified>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-25</terms:modified>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-02-05</terms:modified>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-04-12</terms:modified>
+        <terms:title xml:lang="en">Core organization ontology</terms:title>
+        <terms:title>LinkedMDR</terms:title>
+        <terms:title xml:lang="it">Ontologia delle organizzazioni</terms:title>
+        <terms:title xml:lang="fr">Ontologie des organisations</terms:title>
+        <terms:title xml:lang="es">Ontología de organizaciones</terms:title>
+        <lmdr:preferredNamespacePrefix xml:lang="en">LinkedMDR stands for Linked Multimedia Document Representation. 
+It represents the collective knowledge embedded in a heterogeneous document corpus  of any domain-specific application.
+It is made of three main layers: 
+(1) the core layer serving as a backbone and a mediator among the different layers; 
+(2) the metadata layer linking descriptors of existing standards in metadata representation; 
+(3) the pluggable domain-specific layer that can adapt to any domain-specific ontology.
+This version of LinkedMDR is based on descriptors from DC, TEI  and MPEG-7 standards for the standardized metadata layer and an adapted version of the ifcOWL ontology  for the pluggable domain-specific layer,</lmdr:preferredNamespacePrefix>
+        <lmdr:preferredNamespacePrefix>lmdr</lmdr:preferredNamespacePrefix>
+        <rdfs:comment xml:lang="it">Vocabolario per descrivere strutture organizzative, le quali possono essere specializzate in una vasta varietà di tipi di organizzazione</rdfs:comment>
+        <rdfs:comment xml:lang="es">Vocabulario para describir organizaciones, adaptable a una amplia variedad de ellas.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Vocabulary for describing organizational structures, specializable to a broad variety of types of organization.</rdfs:comment>
+        <rdfs:label xml:lang="en">Core organization ontology</rdfs:label>
+        <rdfs:label xml:lang="it">Ontologia delle organizzazioni</rdfs:label>
+        <rdfs:label xml:lang="fr">Ontologie des organisations</rdfs:label>
+        <rdfs:label xml:lang="es">Ontología de organizaciones</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.w3.org/TR/vocab-org/"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</owl:versionInfo>
+        <owl:versionInfo>0.8</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#preferredNamespacePrefix -->
+
+    <owl:AnnotationProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#preferredNamespacePrefix"/>
+    
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#minQualifiedCardinality -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#minQualifiedCardinality"/>
+    
+
+
+    <!-- http://www.w3.org/2003/06/sw-vocab-status/ns#term_status -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://www.w3.org/ns/org#purpose -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/org#purpose">
+        <rdfs:comment xml:lang="es">Finalidad u objetivo de la organización. La organización puede tener muchos objetivos a diferentes niveles de abstracción, pero en la naturaleza de las organizaciones está el tener una razón para existir, y la finalidad de esta propiedad es documentar dicha razón. La organización podrá tener más de un objetivo. Se recomienda el uso de vocabularios controlados o listas de códigos para indicar el objetivo, preferentemente mediante el uso de un `skos:Concept`. Sin embargo, el rango no está predeterminado, de forma que otros tipos de esquemas descriptivos tiene cabida. Se espera que ciertas especializaciones de este vocabulario o ciertos perfiles de aplicaciones restrinjan el rango del objetivo. Denominaciones alternativas: área_ _jurisdicción_ _ responsabilidad _ (especialmente cuando se aplica a unidades tales como ministerios o divisiones administrativas de los gobiernos)</rdfs:comment>
+        <rdfs:comment xml:lang="it">Indica l&apos;obiettivo di questa Organization. In generale, si possono esprimere gli obiettivi di un&apos;organizzazione secondo diversi livelli di astrazione, ma la natura stessa dell&apos;organizzazione ha una ragione d&apos;essere ed è proprio questa che deve essere catturata con tale proprietà. Inoltre, un&apos;Organization può avere obiettivi multipli. È raccomandabile che l&apos;obiettivo faccia parte di una code list, e che sia preferibilmente un `skos:Concept`. Ad ogni modo, il codominio della proprietà è lasciato aperto per consentire altri tipi di di descrizione. Conseguentemente, eventuali specializzazioni o profili applicativi possono utilizzare quel vocabolario come codominio della proprietà.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates the purpose of this Organization. There can be many purposes at different levels of abstraction but the nature of an organization is to have a reason for existence and this property is a means to document that reason. An Organization may have multiple purposes. It is recommended that the purpose be denoted by a controlled term or code list, ideally a `skos:Concept`. However, the range is left open to allow for other types of descriptive schemes. It is expected that specializations or application profiles of this vocabulary will constrain the range of the purpose. Alternative names: _remit_ _responsibility_ (esp. if applied to OrganizationalUnits such as Government Departments).</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique le but de cette Organisation. Il peut exister plusieurs buts à différents niveaux d&apos;abstraction mais la nature d&apos;une organisation est d&apos;avoir une raison d&apos;exister et cette propriété doit servir à documenter cette raison d&apos;être. Une Organisation peut avoir plusieurs Buts. Il est recommandé que le but soit libellé à l&apos;aide d&apos;un vocabulaire contrôlé ou autre code établi, idéalement avec un concept `skos:Concept`. Toutefois, le champ de cette propriété est laissé ouvert et pourrait accepter d&apos;autres schémas de description. Il est préférable que les spécialisations ou les profils d&apos;applications de ce vocabulaire contraignent le champ de cette propriété.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">この組織の目的を示します。異なる抽象レベルの多くの目的がありえますが、組織の本質は存在理由を持つことであり、このプロパティーはその理由をドキュメント化する手段です。組織は、複数の目的を持っている可能性があります。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="fr">but</rdfs:label>
+        <rdfs:label xml:lang="it">obiettivo</rdfs:label>
+        <rdfs:label xml:lang="en">purpose</rdfs:label>
+        <rdfs:label xml:lang="es">tiene objetivo</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Organization"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#roleProperty -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/org#roleProperty">
+        <rdfs:comment xml:lang="fr">Ceci est une méta-propriété utilisée pour annoter une instance de `org:Role` ayant une sous-propriété `org:memberOf` qui peut être utilisée pour indiquer directement le rôle et pouvoir faire des requêtes plus facilement. La sémantique visée est un Engagement impliquant l&apos;existence d&apos;une relation de propriété directe à travers d&apos;une règle d&apos;inférence de la forme:  `{ [] org:member ?p; org:organization ?o; org:role [org:roleProperty ?r] } -&gt; {?p ?r ?o}`.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Meta-propiedad que se utiliza para anotar una instancia de `org:Role` con una sub-propiedad de `org:memberOf`, que puede ser utilizada para indicar directamente la actividad a fin de facilitar las consultas a los datos. The intended semantics is that a Membership relation involving the Role implies the existence of a direct property relationship through an inference rule of the form: { [] org:member ?a; org:organization ?o; org:role [org:roleProperty ?r] } -&gt; {?a ?r ?o}</rdfs:comment>
+        <rdfs:comment xml:lang="it">Questa è una meta-proprietà usata per annotare un&apos;istanza di `org:Role` con una sotto-proprietà di `org:memberOf` e può essere usata per indicare direttamente il ruolo per facilitare un&apos;interrogazione sui dati.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This is a metalevel property which is used to annotate an `org:Role` instance with a sub-property of `org:memberOf` that can be used to directly indicate the role for easy of usersDescription. The intended semantics is a Membership relation involving the Role implies the existence of a direct property relationship through an inference rule of the form:  `{ [] org:member ?p; org:organization ?o; org:role [org:roleProperty ?r] } -&gt; {?p ?r ?o}`.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">これは、クエリが容易になるように役割を直接的に示すために使用できるorg:memberOfのサブプロパティーでorg:Roleインスタンスを注釈するために用いられるメタレベルのプロパティーです。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="es">desempeña la actividad de (propiedad)</rdfs:label>
+        <rdfs:label xml:lang="en">role (property)</rdfs:label>
+        <rdfs:label xml:lang="it">ruolo (proprietà)</rdfs:label>
+        <rdfs:label xml:lang="fr">rôle (propriété)</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Role"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/mbox -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/mbox"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/membershipClass -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/membershipClass">
+        <rdfs:comment>Indicates the class of individuals that are a member of a Group</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>membershipClass</rdfs:label>
+        <ns:term_status>unstable</ns:term_status>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://xmlns.com/wot/0.1/assurance -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/wot/0.1/assurance"/>
+    
+
+
+    <!-- http://xmlns.com/wot/0.1/src_assurance -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/wot/0.1/src_assurance"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/hasFormat -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/hasFormat">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#syntacticRelation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:comment xml:lang="en">Describes a related document or media that is substantially the same as the current document or media, but in another format</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/hasVersion -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/hasVersion">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#syntacticRelation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:comment xml:lang="en">Describes characteristics related to the form of the object</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/isReferenceBy -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/isReferenceBy">
+        <owl:equivalentProperty rdf:resource="http://spider.sigappfr.org/linkedmdr/#isReferencedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/isRequiredBy -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/isRequiredBy">
+        <owl:equivalentProperty rdf:resource="http://spider.sigappfr.org/linkedmdr/#isRequiredBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/references -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/references">
+        <owl:equivalentProperty rdf:resource="http://spider.sigappfr.org/linkedmdr/#references"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/requires -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/requires">
+        <owl:equivalentProperty rdf:resource="http://spider.sigappfr.org/linkedmdr/#requires"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/source">
+        <owl:equivalentProperty rdf:resource="http://spider.sigappfr.org/linkedmdr/#source"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#appliesTo -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#appliesTo">
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#hasChange"/>
+        <rdfs:domain rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#change"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+        <rdfs:comment xml:lang="en">Describes a relation between changes applied to an object and the latter</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#comprises -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#comprises">
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#isOn"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/linkedmdr/#TextElement"/>
+        <rdfs:comment xml:lang="en">Describes a containmenet relation between a page or a line and elements in the text</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#directionalRelation -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#directionalRelation">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#spatialRelation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment xml:lang="en">Describes the position of an object w.r.t. another object in space </rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#disjoints -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#disjoints">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#topologicalRelation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:comment xml:lang="en">Describes a relation between two obejcts that have no common elements in space </rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasChange -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasChange">
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+        <rdfs:range rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#change"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasPart">
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#isPartOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment xml:lang="en">Describes a whole part relation between objects</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasPart_Object -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasPart_Object">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#hasPart"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#isPartOf_Object"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+        <rdfs:comment xml:lang="en">Describes a whole part relation between two objects</rdfs:comment>
+        <rdfs:label xml:lang="fr">hasPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasPart_tei -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasPart_tei">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#hasPart"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#isPartOf_tei"/>
+        <rdfs:comment xml:lang="en">Describes a whole part relation between TEI elements</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasPart_teiCell -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasPart_teiCell">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#hasPart_tei"/>
+        <rdfs:domain rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#cell"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#figure"/>
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#formula"/>
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#s"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">Describes a whole part relation between a TEI table Cell concept and any direct cell component such as figure or formula or sentence</rdfs:comment>
+        <rdfs:label>hasPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasPart_teiDiv -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasPart_teiDiv">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#hasPart_tei"/>
+        <rdfs:domain rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#div"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#divGen"/>
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#figure"/>
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#head"/>
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#list"/>
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#p"/>
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#s"/>
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#table"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">Describes a whole part relation between TEI Div concept and any direct div component such as divgen or figure or div head or list or paragraph or sentence or table</rdfs:comment>
+        <rdfs:label>hasPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasPart_teiDivGen -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasPart_teiDivGen">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#hasPart_tei"/>
+        <rdfs:domain rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#divGen"/>
+        <rdfs:range rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#head"/>
+        <rdfs:comment xml:lang="en">Describes a whole part relation between a TEI textual division that is generated automatically (divGen) and any direct divGen component such as the divGen head</rdfs:comment>
+        <rdfs:label>hasPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasPart_teiFigDesc -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasPart_teiFigDesc">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#hasPart_tei"/>
+        <rdfs:domain rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#figDesc"/>
+        <rdfs:range rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#s"/>
+        <rdfs:comment xml:lang="en">Describes a whole part relation between a TEI figure description concept (FigDesc)  and any direct figDesc component such as the associated sentence</rdfs:comment>
+        <rdfs:label>hasPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasPart_teiFigure -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasPart_teiFigure">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#hasPart_tei"/>
+        <rdfs:domain rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#figure"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#graphic"/>
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#table"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">Describes a whole part relation between a TEI figure and any direct figure component such as a graphic or a table</rdfs:comment>
+        <rdfs:label>hasPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasPart_teiGraphic -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasPart_teiGraphic">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#hasPart_tei"/>
+        <rdfs:domain rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#graphic"/>
+        <rdfs:range rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#figDesc"/>
+        <rdfs:comment xml:lang="en">Describes a whole part relation between a TEI graphic concept and any direct graphic component such as the associated figure description</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasPart_teiHead -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasPart_teiHead">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#hasPart_tei"/>
+        <rdfs:domain rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#head"/>
+        <rdfs:range rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#s"/>
+        <rdfs:comment xml:lang="en">Describes a whole part relation between a TEI head concept and any head component such as the associated sentence</rdfs:comment>
+        <rdfs:label>hasPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasPart_teiItem -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasPart_teiItem">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#hasPart_tei"/>
+        <rdfs:domain rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#item"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#figure"/>
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#formula"/>
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#s"/>
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#table"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">Describes a whole part relation between a TEI list item concept and any direct list item component such as a figure, a formula, a sentence or a table</rdfs:comment>
+        <rdfs:label>hasPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasPart_teiList -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasPart_teiList">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#hasPart_tei"/>
+        <rdfs:domain rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#list"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#head"/>
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#item"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">Describes a whole part relation between a TEI list concept and any direct list component such as the associated head or the item component</rdfs:comment>
+        <rdfs:label>hasPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasPart_teiNote -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasPart_teiNote">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#hasPart_tei"/>
+        <rdfs:domain rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#note"/>
+        <rdfs:range rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#s"/>
+        <rdfs:comment xml:lang="en">Describes a whole part relation between a TEI note concept and any direct note component such as the associated sentence</rdfs:comment>
+        <rdfs:label>hasPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasPart_teiParagraph -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasPart_teiParagraph">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#hasPart_tei"/>
+        <rdfs:domain rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#p"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#figure"/>
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#formula"/>
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#list"/>
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#s"/>
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#table"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">Describes a whole part relation between a TEI paragraph concept (p) and any direct paragraph component such as figure or list or sentence or table</rdfs:comment>
+        <rdfs:label>hasPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasPart_teiRevisionDesc -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasPart_teiRevisionDesc">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#hasPart_tei"/>
+        <rdfs:domain rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#revisionDesc"/>
+        <rdfs:range rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#change"/>
+        <rdfs:comment xml:lang="en">Describes a whole part relation between a TEI revision description (revisionDesc) concept and any direct revisionDesc component such as the associated textal change</rdfs:comment>
+        <rdfs:label>hasPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasPart_teiRow -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasPart_teiRow">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#hasPart_tei"/>
+        <rdfs:domain rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#row"/>
+        <rdfs:range rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#cell"/>
+        <rdfs:comment xml:lang="en">Describes a whole part relation between a TEI table row concept and any direct row component such as table cell</rdfs:comment>
+        <rdfs:label>hasPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasPart_teiS -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasPart_teiS">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#hasPart_tei"/>
+        <rdfs:domain rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#s"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#formula"/>
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#note"/>
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#seg"/>
+                    <rdf:Description rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#w"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">Describes a whole part relation between a TEI sentence concept (s) and any direct sentence component such as formula or note or textual segment or word</rdfs:comment>
+        <rdfs:label>hasPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasPart_teiSeg -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasPart_teiSeg">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#hasPart_tei"/>
+        <rdfs:domain rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#seg"/>
+        <rdfs:range rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#s"/>
+        <rdfs:comment xml:lang="en">Describes a whole part relation between a TEI textual segment concept (seg) and any direct textual segment component such as the associated sentence</rdfs:comment>
+        <rdfs:label>hasPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasPart_teiTable -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasPart_teiTable">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#hasPart_tei"/>
+        <rdfs:domain rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#table"/>
+        <rdfs:range rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#row"/>
+        <rdfs:comment xml:lang="en">Describes a whole part relation between a TEI table concept and any direct table component such as table row</rdfs:comment>
+        <rdfs:label>hasPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasPart_teiText -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasPart_teiText">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#hasPart_tei"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/linkedmdr/#text"/>
+        <rdfs:comment xml:lang="en">Describes a whole part relation between a TEI text concept and any direct text component</rdfs:comment>
+        <rdfs:label>hasPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasProperty -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasProperty">
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#isPropertyOf"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/linkedmdr/#Document"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/linkedmdr/#DocumentProperty"/>
+        <rdfs:comment xml:lang="en">Describes a relation between a document and a document property</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasRelatedTopics -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasRelatedTopics">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#semanticRelation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment xml:lang="en">Describes related topics between two objects</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#includes -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#includes">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#topologicalRelation"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#isIncludedBy"/>
+        <rdfs:comment xml:lang="en">Describes a relation between an object that includes all elements of another object in space </rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#isAfter -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#isAfter">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#temporalRelation"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#isBefore"/>
+        <rdfs:comment xml:lang="en">Describes a concept that is, in time, created after another object</rdfs:comment>
+        <rdfs:label>isAfter</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#isBefore -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#isBefore">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#temporalRelation"/>
+        <rdfs:comment xml:lang="en">Describes a concept that is, in time, created before another object</rdfs:comment>
+        <rdfs:label>isBefore</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#isEquivalentTo -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#isEquivalentTo">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#semanticRelation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment xml:lang="en">Describes a related object from which the current object is derived</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#isIncludedBy -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#isIncludedBy">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#topologicalRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#isNext -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#isNext">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#orderRelation"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#isPrevious"/>
+        <rdfs:comment xml:lang="en">Describes an order relation between a media or a media component which position is next to another media or media component and the latter</rdfs:comment>
+        <rdfs:label>isAfter</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#isOn -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#isOn">
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/linkedmdr/#TextElement"/>
+        <rdfs:range rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#lb"/>
+        <rdfs:range rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#pb"/>
+        <rdfs:comment xml:lang="en">Describes a relation between a text element and a page or line containing it</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#isOnBottomOf -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#isOnBottomOf">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#directionalRelation"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#isOnTopOf"/>
+        <rdfs:comment xml:lang="en">Describes an object that is on bottom of another object in space </rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#isOnTheLeftOf -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#isOnTheLeftOf">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#directionalRelation"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#isOnTheRightOf"/>
+        <rdfs:comment xml:lang="en">Describes an object that is on the left of another object in space </rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#isOnTheRightOf -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#isOnTheRightOf">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#directionalRelation"/>
+        <rdfs:comment xml:lang="en">Describes an object that is on the ight of another object in space </rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#isOnTopOf -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#isOnTopOf">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#directionalRelation"/>
+        <rdfs:comment xml:lang="en">Describes an object that is on top of another object in space </rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#isPartOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#isPartOf_Object -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#isPartOf_Object">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#isPartOf"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#isPartOf_tei -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#isPartOf_tei">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#isPartOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#isPrevious -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#isPrevious">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#orderRelation"/>
+        <rdfs:comment xml:lang="en">Describes an order relation between a media or a media component which position is before another media or media component and the latter</rdfs:comment>
+        <rdfs:label>isBefore</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#isPropertyOf -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#isPropertyOf">
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/linkedmdr/#DocumentProperty"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/linkedmdr/#Document"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#isReferencedBy -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#isReferencedBy">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#semanticRelation"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#references"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#isRequiredBy -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#isRequiredBy">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#semanticRelation"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#requires"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#isRevisedBy -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#isRevisedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#revises"/>
+        <rdfs:domain rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#change"/>
+        <rdfs:range rdf:resource="http://purl.org/dc/terms/contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#isSourceOf -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#isSourceOf">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#semanticRelation"/>
+        <owl:inverseOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#source"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#orderRelation -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#orderRelation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://spider.sigappfr.org/linkedmdr/#Media"/>
+                    <rdf:Description rdf:about="http://spider.sigappfr.org/linkedmdr/#MediaComponent"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://spider.sigappfr.org/linkedmdr/#Media"/>
+                    <rdf:Description rdf:about="http://spider.sigappfr.org/linkedmdr/#MediaComponent"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">Describes a positioning order relation between two media or a media components</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#overlaps -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#overlaps">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#topologicalRelation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:comment xml:lang="en">Describes a relation between two obejcts that have intersecting elements in space </rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#references -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#references">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#semanticRelation"/>
+        <rdfs:comment xml:lang="en">Describes a related object that is referenced, cited, or otherwise pointed to by the current object</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#requires -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#requires">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#semanticRelation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment xml:lang="en">Describes a related object that is required by the current object to support its coherence</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#revises -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#revises">
+        <rdfs:domain rdf:resource="http://purl.org/dc/terms/contributor"/>
+        <rdfs:range rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#change"/>
+        <rdfs:comment xml:lang="en">Describes the relation representing the change made by a contributor to the document</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#semanticRelation -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#semanticRelation">
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+        <rdfs:comment xml:lang="en">Describes semantic characteristics related to the content of the object</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#source -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#source">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#semanticRelation"/>
+        <rdfs:comment xml:lang="en">Describes a related object from which the current object is derived</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#spatialRelation -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#spatialRelation">
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+        <rdfs:comment xml:lang="en">Describes relations between objects in space</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#syntacticRelation -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#syntacticRelation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://spider.sigappfr.org/linkedmdr/#Document"/>
+                    <rdf:Description rdf:about="http://spider.sigappfr.org/linkedmdr/#Media"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://spider.sigappfr.org/linkedmdr/#Document"/>
+                    <rdf:Description rdf:about="http://spider.sigappfr.org/linkedmdr/#Media"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">Describes characteristics related to the form of the document or the media</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#temporalRelation -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#temporalRelation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+        <rdfs:comment xml:lang="en">Describes the ordering in time between two objects</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#topologicalRelation -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#topologicalRelation">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#spatialRelation"/>
+        <rdfs:comment xml:lang="en">Describes structural relations between objects in space</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#touches -->
+
+    <owl:ObjectProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#touches">
+        <rdfs:subPropertyOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#topologicalRelation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:comment xml:lang="en">Describes a relation between two obejcts that have one boundary element in common in space</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#attaches -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#attaches">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Response"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#hasComment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#hasComment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Query"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Response"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#hasDomain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#hasDomain">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/linkedmdr/#Domain"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#identifiedAsExpert -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#identifiedAsExpert">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#isACandidate"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Candidate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#identifiedAsExpertFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#identifiedAsExpertFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Candidate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Query"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#identifiedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#identifiedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#identifies"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Candidate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Algorithm"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#identifies -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#identifies">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Algorithm"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Candidate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#includes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#includes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Query"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#isACandidate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#isACandidate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Candidate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#issues -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#issues">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Bot"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Query"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#rates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#rates">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#ratingBy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Rating"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#ratingBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#ratingBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Rating"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#ratingFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#ratingFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Rating"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Response"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#receiver -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#receiver">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#QuerySharing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#repliesBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#repliesBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Response"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#responseTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#responseTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Response"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Query"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#sender -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#sender">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#QuerySharing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#sharedObject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#sharedObject">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#QuerySharing"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#sharedQuery -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#sharedQuery">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#QuerySharing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Query"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#subDomain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#subDomain">
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/linkedmdr/#Domain"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/linkedmdr/#Domain"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#submits -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#submits">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Query"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#authorOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#authorOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#contains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#contains">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Query"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Keyword"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#contributes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#contributes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#covers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#covers">
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/linkedmdr/#Domain"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Topic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#describes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#describes">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#isDescribedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#hasExpertiseIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#hasExpertiseIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Topic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#hasInterest -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#hasInterest">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Topic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#hasReport -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#hasReport">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Report"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#hasUnit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#hasUnit">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/org#OrganizationalUnit"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#isBotOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#isBotOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Bot"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/org#Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#isDefinedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#isDefinedIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Topic"/>
+        <rdfs:range rdf:resource="http://purl.org/dc/terms/language"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#isDescribedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#isDescribedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Topic"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Keyword"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#isDirectoryOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#isDirectoryOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Directory"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/org#Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#isLinkedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#isLinkedTo">
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Topic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#isReferencedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#isReferencedBy">
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/linkedmdr/#Document"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Keyword"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#isStopWordOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#isStopWordOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Keyword"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/org#Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#isUsedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#isUsedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Algorithm"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/org#Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#isWrittenIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#isWrittenIn">
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/linkedmdr/#Domain"/>
+        <rdfs:range rdf:resource="http://purl.org/dc/terms/language"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#mentionedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#mentionedIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#semanticRelation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#semanticRelation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Topic"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Topic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#shares -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#shares">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+        <rdfs:range rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#basedAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#basedAt">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/org#Site"/>
+        <rdfs:comment xml:lang="it">Indica la sede in cui una è stabilita una persona. Non esclude la possibilità che una persona sia allocata su più sedi.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates the site at which a person is based. We do not restrict the possibility that a person is based at multiple sites.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique le site sur lequel une personne est basée. Nous ne limitons pas le nombre de sites sur lesquels une personne peut être basée.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Lugar en el que trabaja una persona. No se restringe el hecho de que una persona pueda estar adscrita a múltiples ubicaciones.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">人が基礎としているサイトを示します。人が複数のサイトを基礎としている可能性を制限しません。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="it">basata a</rdfs:label>
+        <rdfs:label xml:lang="en">based At</rdfs:label>
+        <rdfs:label xml:lang="fr">basé à</rdfs:label>
+        <rdfs:label xml:lang="es">trabaja en la sede</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#hasMember -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#hasMember">
+        <owl:inverseOf rdf:resource="http://www.w3.org/ns/org#memberOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:comment xml:lang="it">Indica una persona che è membro della data Organization. È l&apos;inverso di `org:memberOf` ed è fornita per  compatibilità con `foaf:member`.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates a person who is a member of the subject Organization. Inverse of `org:memberOf`, see that property for further clarification. Provided for compatibility with `foaf:member`.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique une personne membre de l&apos;Organisation sujet. Inverse de `org:memberOf`, voyez la description de cette propriété pour plus de précisions. Fourni pour la compatibilité avec `foaf:member`.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Persona que es miembro de la organización en cuestión. Es la relación inversa de `org:memberOf`, véase la descripción de esa propiedad para más detalles. Se prevé compatibilidad con foaf:member`.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">対象組織のメンバーであるエージェント（人または他の組織）を示します。org:memberOfの逆。さらに明確な説明については、そのプロパティーを参照してください。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="it">ha membro</rdfs:label>
+        <rdfs:label xml:lang="en">hasMember</rdfs:label>
+        <rdfs:label xml:lang="fr">possède un membre</rdfs:label>
+        <rdfs:label xml:lang="es">tiene miembro</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#hasMembership -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#hasMembership">
+        <owl:inverseOf rdf:resource="http://www.w3.org/ns/org#member"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/org#Membership"/>
+        <rdfs:comment xml:lang="it">Indica una relazione di appartenenza che coinvolge un Agent. È l&apos;inverso di `org:member`.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates a membership relationship that the Agent plays. Inverse of `org:member`.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique pour cet Agent un engagement dans une Organisation. Inverse de `org:member`.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Relación de pertenencia o afiliación a una organización en la que el agente desempeña un cargo o función. Es la relación inversa de `org:member`.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">エージェントが担う構成員関係を示します。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="it">appartenenza</rdfs:label>
+        <rdfs:label xml:lang="fr">engagement</rdfs:label>
+        <rdfs:label xml:lang="en">membership</rdfs:label>
+        <rdfs:label xml:lang="es">tiene membresía</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#hasPost -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#hasPost">
+        <owl:inverseOf rdf:resource="http://www.w3.org/ns/org#postIn"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/org#Post"/>
+        <rdfs:comment xml:lang="it">Indica il Post che è presente in una Organization.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indicate un Poste qui existe dans l&apos;Organisation.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates a Post which exists within the Organization.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Posición que existe en una organización.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">組織内に存在するポストを示します。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="it">impiego</rdfs:label>
+        <rdfs:label xml:lang="fr">possède un poste</rdfs:label>
+        <rdfs:label xml:lang="en">post</rdfs:label>
+        <rdfs:label xml:lang="es">tiene puesto</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#hasSite -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#hasSite">
+        <owl:inverseOf rdf:resource="http://www.w3.org/ns/org#siteOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/org#Site"/>
+        <rdfs:comment xml:lang="it">Indica la sede in cui l&apos;Organization ha una qualche presenza anche in modo indiretto (ad esempio un ufficio virtuale). È l&apos;inverso di `org:siteOf`.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates a site at which the Organization has some presence even if only indirect (e.g. virtual office or a professional service which is acting as the registered address for a company). Inverse of `org:siteOf`.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique un site sur lequel l&apos;Organisation possède une présence, même indirecte (domiciliation, boite postale). Inverse de `org:siteOf`.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Lugar en donde la organización tiene algún tipo de presencia, incluso si es de forma indirecta (por ejemplo, una oficina virtual o servicio profesional que hagan la función de dirección registrada de la compañía). Es la relación inversa de `org:siteOf`.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">組織が、間接（例えば、会社の登録住所として機能しているバーチャル・オフィスやプロフェッショナル・サービス）のみであったとしても、ある存在感を持っているサイトを示します。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="fr">a un site</rdfs:label>
+        <rdfs:label xml:lang="it">ha sede</rdfs:label>
+        <rdfs:label xml:lang="en">hasSite</rdfs:label>
+        <rdfs:label xml:lang="es">tiene sede en</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#heldBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#heldBy">
+        <owl:inverseOf rdf:resource="http://www.w3.org/ns/org#holds"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Post"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:comment xml:lang="es">Agente que ocupa un puesto.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Indica un Agent che ricopre un Post.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indicate un Agent qui occupe le Poste.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates an Agent which holds a Post.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">ポストを保持するエージェントを示します。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="en">heldBy</rdfs:label>
+        <rdfs:label xml:lang="fr">occupé par</rdfs:label>
+        <rdfs:label xml:lang="es">ocupado por</rdfs:label>
+        <rdfs:label xml:lang="it">ricoperto da</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#holds -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#holds">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/org#Post"/>
+        <rdfs:comment xml:lang="it">Indica un Impiego ricoperto da un Agent.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indicate un Poste occupé par un Agent.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates a Post held by some Agent.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Puesto ocupado por algún agente.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">あるエージェントによって保持されているポストを示します。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="en">holds</rdfs:label>
+        <rdfs:label xml:lang="fr">occupe</rdfs:label>
+        <rdfs:label xml:lang="es">ocupa</rdfs:label>
+        <rdfs:label xml:lang="it">ricopre</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#linkedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#linkedTo">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:comment xml:lang="ja">2つの組織の任意の関係を示します。</rdfs:comment>
+        <rdfs:comment xml:lang="it">Indica una relazione arbitraria tra due organizzazioni. Ad esempio, specializzazioni di questa proprietà possono essere usate per denotare relazioni particolari tipo il finanziamento o la fornitura.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates an arbitrary relationship between two organizations. Specializations of this can be used to, for example, denote funding or supply chain relationships.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique une relation arbitraire entre deux Organisations. Des spécialisations peuvent être utilisées pour, par exemple, qualifier une relation de fournisseur ou de financeur.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Relación arbitraria entre dos organizaciones. Las especializaciones de esta relación se pueden utilizar para denotar relaciones de financiación o suministro, entre otras.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="it">collegato a</rdfs:label>
+        <rdfs:label xml:lang="es">está relacionada con</rdfs:label>
+        <rdfs:label xml:lang="es">está relacionado con</rdfs:label>
+        <rdfs:label xml:lang="en">linked to</rdfs:label>
+        <rdfs:label xml:lang="fr">relié à</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#member -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#member">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Membership"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:comment xml:lang="it">Indica la Person (o un altro Agent) coinvolto in una relazione di Membership. È l&apos;inverso di `org:hasMembership`.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates the Person (or other Agent including Organization) involved in the Membership relationship. Inverse of `org:hasMembership`</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique une personne (ou tout autre Agent, y compris une Organisation) impliqué dans la relation d&apos;Engagement. Inverse de `org:hasMembership`</rdfs:comment>
+        <rdfs:comment xml:lang="es">Persona (u otro agente, incluyendo una organización) que participa en la relación de membresía. Es la relación inversa de `org:hasMembership`.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">構成員関係に含まれている人（または、組織を含んでいる他のエージェント）を示します。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="es">es condición de miembro sobre agente</rdfs:label>
+        <rdfs:label xml:lang="en">member</rdfs:label>
+        <rdfs:label xml:lang="fr">membre</rdfs:label>
+        <rdfs:label xml:lang="it">membro</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#memberOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#memberOf">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:comment xml:lang="it">Indica che una persona è membro di una Organization senza una precisa indicazione sulla natura di questa appartenenza e sul suo ruolo. Si noti che la scelta del nome di questa proprietà non intende limitarla alla sola  rappresentazione formalmente di un&apos;appartenenza. La proprietà può coprire anche altri coinvolgimenti nell&apos;organizzazione. Questa proprietà può essere specializzata per indicare ruoli all&apos;interno organizzazione o relazioni di diverse tipologie. Ha `org:hasmember` come proprietà inversa opzionale.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates that a person is a member of the Organization with no indication of the nature of that membership or the role played. Note that the choice of property name is not meant to limit the property to only formal membership arrangements, it is also indended to cover related concepts such as affilliation or other involvement in the organization. Extensions can specialize this relationship to indicate particular roles within the organization or more nuanced relationships to the organization. Has an optional inverse, `org:hasmember`.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique qu&apos;une personne est membre de l&apos;Organisation sans précision sur la nature de cet engagement ou du rôle joué. Notez que le choix du nom de cette propriété ne vise pas à la limiter aux seuls engagements formels, elle peut également couvrir des concepts reliés comme l&apos;affiliation ou le bénévolat. Des extensions peuvent spécialiser cette relation pour indiquer des rôles particuliers au sein de l&apos;Organisation or des relations plus nuancées avec elle. Possède une propriété inverse optionnelle, `org:hasmember`.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Persona que pertenece a la organización o es miembro de la misma, sin que conste la naturaleza de dicha pertenencia o el papel que desempeña. Se debe tener en cuenta que la elección de una denominación para esta propiedad no significa que la propiedad esté limitada a ciertos tipos de pertenencia formales, sino que pretende cubrir conceptos relacionados como el de afiliación u otras formas de participación en la organización. Se puede hacer uso de extensiones para especializar esta relación de forma que incluya tipos específicos de pertenencia a las organizaciones o relaciones especiales con la organización.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">エージェント（人または他の組織）が組織のメンバーであることを示します。ただし、その構成員の本質や担う役割は示しません。プロパティー名の選択は、プロパティーを正式な構成員配置のみに制限することが目的ではないことに注意してください。所属や組織へのその他の関与などの関連する概念をカバーすることも意図されています。拡張により、この関係を特殊化し、組織内の特定の役割やよりニュアンスを含んだ組織との関係を示すことができます。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="es">es miembro de</rdfs:label>
+        <rdfs:label xml:lang="en">memberOf</rdfs:label>
+        <rdfs:label xml:lang="fr">membre de</rdfs:label>
+        <rdfs:label xml:lang="it">membro di</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#organization -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#organization">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Membership"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:comment xml:lang="it">Indica l&apos;Organization in cui l&apos;Agent è un membro.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates Organization in which the Agent is a member.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique l&apos;Organization dont l&apos;agent est membre.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Organización a la que pertenece el agente en calidad de miembro.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">エージェントがメンバーである組織を示します。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="es">es condición de miembro sobre organización</rdfs:label>
+        <rdfs:label xml:lang="fr">organisation</rdfs:label>
+        <rdfs:label xml:lang="en">organization</rdfs:label>
+        <rdfs:label xml:lang="it">organizzazione</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#postIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#postIn">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Post"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:comment xml:lang="it">Indica l&apos;Organization in cui il Post è presente.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indicate l&apos;Organisation dans laquelle le Poste existe.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates the Organization in which the Post exists.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Organización en la que existe el puesto.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">ポストが存在する組織を示します。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="es">es un puesto en</rdfs:label>
+        <rdfs:label xml:lang="it">impiego in</rdfs:label>
+        <rdfs:label xml:lang="en">postIn</rdfs:label>
+        <rdfs:label xml:lang="fr">poste chez</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#role -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#role">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/ns/org#Membership"/>
+                    <rdf:Description rdf:about="http://www.w3.org/ns/org#Post"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/org#Role"/>
+        <rdfs:comment xml:lang="es">Actividad que el agente desempeña en una relación de pertenencia a una organización.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Indica il Role che un Agent ricopre in una relazione di Membership con una Organization</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates the Role that the Agent plays in a Membership relationship with an Organization.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique le Rôle de l&apos;Agent dans son Engagement avec l&apos;Organisation.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">エージェントが組織との構成員関係において担う役割を示します。ポストの保持者が担う役割を示すためにorg:Postで用いることもできます。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="es">desempeña la actividad de</rdfs:label>
+        <rdfs:label xml:lang="en">role</rdfs:label>
+        <rdfs:label xml:lang="it">ruolo</rdfs:label>
+        <rdfs:label xml:lang="fr">rôle</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#siteAddress -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#siteAddress">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Site"/>
+        <rdfs:comment xml:lang="es">Dirección de la sede según una codificación adecuada. Se recomienda el uso de vCard (que utiliza el vocabulario en http://www.w3.org/TR/vcard-rdf/), pero el rango no se restringe únicamente al uso de este vocabulario sino que se permite el uso de otros códigos. La dirección puede constar de una dirección de correo electrónico, un número de teléfono o información de geo-localización, y no se limita a una dirección postal física.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Indica un indirizzo per la sede in una codifica appropriata. Il codominio è lasciato libero ma è consigliabile l&apos;uso del vocabolario vCard (http://www.w3.org/TR/vcard-rdf/). L&apos;indirizzo può includere email, numero di telefono e informazioni di geolocalizzazione e non è vincolato ad essere un indirizzo fisico.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates an address for the site in a suitable encoding. Use of vCard (using the http://www.w3.org/TR/vcard-rdf/ vocabulary) is encouraged but the range is left open to allow other encodings to be used. The address may include email, telephone, and geo-location information and is not restricted to a physical address.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique une adresse pour le site dans un encodage approprié. L&apos;usage du vocabulaire vCard ( http://www.w3.org/TR/vcard-rdf/) est encouragé, mais le range est ouvert pour permettre l&apos;utilisation d&apos;autres vocabulaires. L&apos;adresse peut comporter le courriel, le téléphone, et l&apos;information de géolocalisation; et n&apos;est donc pas seulement limitée à une adresse physique. </rdfs:comment>
+        <rdfs:comment xml:lang="ja">適切にコード化されたサイトのアドレスを示します。vCard[vcard-rdf]語彙などの有名なアドレスのコード化の使用が奨励されますが、他の符号化の使用を可能とするために値域はオープンのままにされます。アドレスには、電子メール、電話およびジオロケーション情報を含むことができ、物理的なアドレスに制限されません。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="fr">adresse du Site</rdfs:label>
+        <rdfs:label xml:lang="es">es la dirección de la sede</rdfs:label>
+        <rdfs:label xml:lang="it">indirizzo della sede</rdfs:label>
+        <rdfs:label xml:lang="en">siteAddress</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#siteOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/org#siteOf">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Site"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:comment xml:lang="it">Indica un&apos;Organization che ha una qualche presenza nella data sede. È l&apos;inverso di `org:hasSite`.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates an Organization which has some presence at the given site. This is the inverse of `org:hasSite`.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique une Organisation qui a une présence sur le site en question. Inverse de `org:hasSite`.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Organización que tiene ubicación en un lugar. Es la relación inversa de `org:hasSite`.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">あるサイトである存在感を持っている組織を示します。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="es">es sede de</rdfs:label>
+        <rdfs:label xml:lang="it">sede di</rdfs:label>
+        <rdfs:label xml:lang="fr">site de</rdfs:label>
+        <rdfs:label xml:lang="en">siteOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/knows -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/knows">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:comment>A person known by this person (indicating some level of reciprocated interaction between the parties).</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>knows</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/mbox -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/mbox">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/member -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/member">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:comment>Indicates a member of a Group</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>member</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/phone -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/phone">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:comment>A phone,  specified using fully qualified tel: URI scheme (refs: http://www.w3.org/Addressing/schemes.html#tel).</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>phone</rdfs:label>
+        <ns:term_status>testing</ns:term_status>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#domainName -->
+
+    <owl:DatatypeProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#domainName">
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/linkedmdr/#Domain"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#hasValue -->
+
+    <owl:DatatypeProperty rdf:about="http://spider.sigappfr.org/linkedmdr/#hasValue">
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/linkedmdr/#Media"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/linkedmdr/#MediaComponent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#delivered -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#delivered">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#SelectedExpert"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#rank -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#rank">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Candidate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#ratingScore -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#ratingScore">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#reason -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#reason">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#SelectedExpert"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#responseText -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#responseText">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Response"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#score -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#score">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Candidate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#usersDescriptionText -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#usersDescriptionText">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Query"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#algKeywordRate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#algKeywordRate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Algorithm"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#algNormalizationType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#algNormalizationType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Algorithm"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#algType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#algType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Algorithm"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#docExternalId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#docExternalId">
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/linkedmdr/#Document"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#docPath -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#docPath">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/linkedmdr/#Document"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#docStorageId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#docStorageId">
+        <rdfs:domain rdf:resource="http://spider.sigappfr.org/linkedmdr/#Document"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#email">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#keyTerm -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#keyTerm">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Keyword"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment>A term of keyword</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#keyWeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#keyWeight">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Keyword"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#name">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#username -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#username">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+	
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/token#resetTokenDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/token#resetTokenDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+	
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/token#resetTokenHash -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/token#resetTokenHash">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>	
+	
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/token#verifiedToken -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/token#verifiedToken">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>	
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#password -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#password">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment>The Password of this User.</rdfs:comment>
+        <rdfs:label>password</rdfs:label>
+        <ns:term_status>testing</ns:term_status>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#passwordReset -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#passwordReset">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment>The passwordReset  of this User.</rdfs:comment>
+        <rdfs:label>passwordReset</rdfs:label>
+        <ns:term_status>testing</ns:term_status>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#reportType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#reportType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Report"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#topicWeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#topicWeight">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Topic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#userExternalId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#userExternalId">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#userPayingAccount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#userPayingAccount">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#verified -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#verified">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment>The verified account of this User.</rdfs:comment>
+        <rdfs:label>verified</rdfs:label>
+        <ns:term_status>testing</ns:term_status>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#notation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+    
+
+
+    <!-- http://www.w3.org/ns/org#identifier -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/org#identifier">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:comment xml:lang="es">Código o identificador, como por ejemplo el CIF de una empresa, que permite identificar de forma inequívoca a una organización. Existen muchos códigos de identificación tanto nacionales como internacionales. Esta ontología no obliga al uso de ningún esquema en concreto. Los códigos de identificación utilizados en cada caso se deberían indicar mediante el uso de la propiedad “datatype” del valor del identificador. El uso de la propiedad “datatype” para especificar el esquema de notación utilizado está en consonancia con las buenas prácticas recomendadas para el uso de la propiedad `skos:notation`, de la que esta propiedad es una especialización.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Donne un identifiant, comme par exemple le numéro d&apos;enregistrement d&apos;une entreprise, qui peut être utilisé comme identifiant unique pour l&apos;Organisation. De nombreux schémas nationaux et internationaux sont disponibles. Cette ontologie reste neutre par rapport au schéma utilisé. Le schéma particulier utilisé devrait être indiqué par le `datatype` de la valeur de l&apos;identifiant. Utiliser les datatypes pour distinguer les schémas de notation est cohérent avec les bonnes pratiques pour `skos:notation` dont cette propriété est une spécialisation.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Gives an identifier, such as a company registration number, that can be used to used to uniquely identify the organization. Many different national and international identier schemes are available. The org ontology is neutral to which schemes are used. The particular identifier scheme should be indicated by the datatype of the identifier value.  Using datatypes to distinguish the notation scheme used is consistent with recommended best practice for `skos:notation` of which this property is a specialization.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Indica un identificatore univoco per l&apos;organizzazione, come ad esempio la partita IVA di un&apos;azienda. Molti schemi di identificazione a livello nazionale e internazionale sono disponibili allo scopo. L&apos;ontologia ORG è neutrale rispetto allo schema da utilizzare. Lo schema di identificazione dovrebbe essere indicato dal datatype del valore dell&apos;identificatore. L&apos;uso del datatype per distinguere lo schema di identificazione è coerente con le best practice per `skos:notation`, di cui questa proprietà è una specializzazione.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">組織を一意に識別するために使用できる会社登録番号などの識別子を与えます。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="fr">identifiant</rdfs:label>
+        <rdfs:label xml:lang="it">identificatore</rdfs:label>
+        <rdfs:label xml:lang="en">identifier</rdfs:label>
+        <rdfs:label xml:lang="es">tiene identificador</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#location -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/org#location">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Gives a location description for a person within the organization, for example a _Mail Stop_ for internal posting purposes.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Indica la descrizione del luogo presso cui è possibile reperire una persona dell&apos;organizzazione.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique la description de l&apos;endroit ou est basé une personne de l&apos;Organisation, par exemple pour des besoins de messagerie interne (Bureau 42).</rdfs:comment>
+        <rdfs:comment xml:lang="es">Lugar o ubicación exacta de una persona en una organización con el objetivo de facilitar, por ejemplo, la entrega de correo.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">例えば、内部配送目的のメール・ストップ（Mail Stop）などの、組織内の人の位置記述を提供します。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="es">está ubicada en</rdfs:label>
+        <rdfs:label xml:lang="es">está ubicado en</rdfs:label>
+        <rdfs:label xml:lang="fr">localisation</rdfs:label>
+        <rdfs:label xml:lang="en">location</rdfs:label>
+        <rdfs:label xml:lang="it">luogo</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/age -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/age">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment>The age in years of some agent.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>age</rdfs:label>
+        <ns:term_status>unstable</ns:term_status>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/birthday -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/birthday">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment>The birthday of this Agent, represented in mm-dd string form, eg. &apos;12-31&apos;.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>birthday</rdfs:label>
+        <ns:term_status>unstable</ns:term_status>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/familyName -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/familyName">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment>The family name of some person.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>familyName</rdfs:label>
+        <ns:term_status>testing</ns:term_status>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/firstName -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/firstName">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment>The first name of a person.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>firstName</rdfs:label>
+        <ns:term_status>testing</ns:term_status>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/gender -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/gender">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment>The gender of this Agent (typically but not necessarily &apos;male&apos; or &apos;female&apos;).</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>gender</rdfs:label>
+        <ns:term_status>testing</ns:term_status>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/lastName -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/lastName">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment>The last name of a person.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>lastName</rdfs:label>
+        <ns:term_status>testing</ns:term_status>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/name">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment>A name for some thing.</rdfs:comment>
+        <rdfs:comment>The name of a person.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>name</rdfs:label>
+        <ns:term_status>testing</ns:term_status>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/contributor">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#AdministrativeMetadata"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/coverage -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/coverage">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#DescriptiveMetadata"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/created">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/date"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/creator">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#DescriptiveMetadata"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/date -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/date">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#AdministrativeMetadata"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/description">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#DescriptiveMetadata"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/extent -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/extent">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/format"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/format -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/format">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#AdministrativeMetadata"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/identifier -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/identifier">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#DescriptiveMetadata"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/language -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/language">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#DescriptiveMetadata"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/modified">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/date"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/rights -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/rights">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#AdministrativeMetadata"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/spatial -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/spatial">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/coverage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/subject -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/subject">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#DescriptiveMetadata"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/temporal -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/temporal">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/coverage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/title">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#DescriptiveMetadata"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/type -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/type">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#DescriptiveMetadata"/>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#AdministrativeMetadata -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/linkedmdr/#AdministrativeMetadata">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#DocumentProperty"/>
+        <rdfs:comment xml:lang="en">Provides technical information on the document, mainly for rights management and version tracking</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#DescriptiveMetadata -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/linkedmdr/#DescriptiveMetadata">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#DocumentProperty"/>
+        <rdfs:comment xml:lang="en">Describes the document for the purpose of discovery and identification</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#Document -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/linkedmdr/#Document">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+        <rdfs:comment xml:lang="en">Represents an electronic format and provides information in form of text, image, etc.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#DocumentProperty -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/linkedmdr/#DocumentProperty">
+        <rdfs:comment xml:lang="en">Represents administrative or descriptive metadata related to a document entity</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#Domain -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/linkedmdr/#Domain">
+        <rdfs:comment xml:lang="en">Represents an abstraction of any domain-specific concept from external knowledge base or ontology (e.g., concepts of the ifcOWL ontology in the building construction industry)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#Media -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/linkedmdr/#Media">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+        <rdfs:comment xml:lang="en">Represents the main means of information communication e.g., text, image, etc.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#MediaComponent -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/linkedmdr/#MediaComponent">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#Object"/>
+        <rdfs:comment xml:lang="en">Represents an abstraction of any element that constitutes the media, whether it is of a high or small granularity</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#Object -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/linkedmdr/#Object">
+        <rdfs:comment xml:lang="en">Represents the abstraction of a document, a media and media component to represent common properties and characteristics.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#TextElement -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/linkedmdr/#TextElement">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#MediaComponent"/>
+        <rdfs:comment xml:lang="en">Represents any structural component that constitutes a text content e.g., section, paragraph, etc.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://spider.sigappfr.org/linkedmdr/#text -->
+
+    <owl:Class rdf:about="http://spider.sigappfr.org/linkedmdr/#text">
+        <owl:equivalentClass rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#text"/>
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#Media"/>
+        <rdfs:comment xml:lang="en">Represents a text media</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#Candidate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Candidate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#Query -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Query"/>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#QuerySharing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#QuerySharing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#Rating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Rating"/>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#Response -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Response"/>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/query#SelectedExpert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/query#SelectedExpert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/opencems/ontologies/2022/8/query#Candidate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Algorithm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Algorithm"/>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Bot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Bot"/>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Directory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Directory"/>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Keyword -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Keyword"/>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Report -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Report">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#Document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Topic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#Topic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/opencems/ontologies/2022/8/userprofile#User">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#cell -->
+
+    <owl:Class rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#cell">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#TextElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#change -->
+
+    <owl:Class rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#change">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#AdministrativeMetadata"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#div -->
+
+    <owl:Class rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#div">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#TextElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#divGen -->
+
+    <owl:Class rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#divGen">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#TextElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#figDesc -->
+
+    <owl:Class rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#figDesc">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#TextElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#figure -->
+
+    <owl:Class rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#figure">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#TextElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#formula -->
+
+    <owl:Class rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#formula">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#TextElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#graphic -->
+
+    <owl:Class rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#graphic">
+        <rdfs:subClassOf rdf:resource="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#formula"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#head -->
+
+    <owl:Class rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#head">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#TextElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#item -->
+
+    <owl:Class rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#item">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#TextElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#lb -->
+
+    <owl:Class rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#lb"/>
+    
+
+
+    <!-- http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#list -->
+
+    <owl:Class rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#list">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#TextElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#note -->
+
+    <owl:Class rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#note">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#TextElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#p -->
+
+    <owl:Class rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#p">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#TextElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#pb -->
+
+    <owl:Class rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#pb"/>
+    
+
+
+    <!-- http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#revisionDesc -->
+
+    <owl:Class rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#revisionDesc">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#AdministrativeMetadata"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#row -->
+
+    <owl:Class rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#row">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#TextElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#s -->
+
+    <owl:Class rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#s">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#TextElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#seg -->
+
+    <owl:Class rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#seg">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#TextElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#table -->
+
+    <owl:Class rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#table">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#TextElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#text -->
+
+    <owl:Class rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#text"/>
+    
+
+
+    <!-- http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#w -->
+
+    <owl:Class rdf:about="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/#w">
+        <rdfs:subClassOf rdf:resource="http://spider.sigappfr.org/linkedmdr/#TextElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label>Thing</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/org#Membership -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/org#Membership">
+        <owl:disjointWith rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <owl:disjointWith rdf:resource="http://www.w3.org/ns/org#Role"/>
+        <owl:disjointWith rdf:resource="http://www.w3.org/ns/org#Site"/>
+        <rdfs:comment xml:lang="it">Indica la natura della relazione di appartenenza di un Agent in un&apos;organizzazione. Rappresenta una relazione n-aria tra un&apos;Agent, un Organization e un Role. È possibile indicare direttamente la membership, indipendentemente dallo specifico Role, attraverso l&apos;uso della proprietà `org:memberOf`</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates the nature of an Agent&apos;s membership of an organization. Represents an n-ary relation between an Agent, an Organization and a Role. It is possible to directly indicate membership, independent of the specific Role, through use of the `org:memberOf` property.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique la nature de l&apos;engagement d&apos;un Agent dans une Organisation. Représente une relation n-aire entre un Agent, une Organisation et un Role. Il est possible d&apos;indiquer directement l&apos;appartenance à une organisation, independemment d&apos;un rôle spécifique, à travers l&apos;usage de la propriété `org:memberOf`.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Pertenencia o afiliación de un agente a una organización. Es una relación n-aria entre un agente, una organización y una actividad. Es posible indicar pertenencia mediante el uso de la propiedad `org:memberOf`, independientemente de la actividad específica que se desempeñe.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">組織のエージェントの構成員の本質を示します。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="it">Appartenenza</rdfs:label>
+        <rdfs:label xml:lang="fr">Engagement</rdfs:label>
+        <rdfs:label xml:lang="en">Membership</rdfs:label>
+        <rdfs:label xml:lang="es">membresía</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/org#Organization -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/org#Organization">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <owl:disjointWith rdf:resource="http://www.w3.org/ns/org#Role"/>
+        <owl:disjointWith rdf:resource="http://www.w3.org/ns/org#Site"/>
+        <owl:hasKey rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/ns/org#identifier"/>
+        </owl:hasKey>
+        <rdfs:comment xml:lang="es">Grupo de personas que se organiza en una comunidad u otro tipo de estructura social, comercial o política. Dicho grupo tiene un objetivo o motivo común para su existencia que va más allá del conjunto de personas que lo forman y que puede actuar como “agente”. A menudo las organizaciones se pueden agrupar en estructuras jerárquicas. Se recomienda el uso de etiquetas de SKOS para denominar a cada “organización”. En concreto, `skos:prefLabel` para la denominación principal o recomendada (aquella reconocida legalmente, siempre que sea posible), `skos:altLabel` para denominaciones alternativas (nombre comercial, sigla, denominación por la que se conoce a la organización coloquialmente) y `skos:notation` para referirse al código que identifique a la organización en una lista de códigos. Denominaciones alternativas: _colectivo_ _corporación_ _grupo_</rdfs:comment>
+        <rdfs:comment xml:lang="it">Rappresenta una collezione di persone organizzate all&apos;interno di una communità o di una qualche struttura sociale, commerciale o politica. Il gruppo condivide un obiettivo o una ragione d&apos;essere che va oltre gli stessi membri appartenenti al gruppo e  può agire come un Agent. Le organizzazioni si possono spesso suddividere in strutture gerarchiche. Si raccomanda di usare le label per l&apos;Organization mediante le proprietà di SKOS. In particolare, `skos:prefLabel` per il nome principale (possibilmente un nome legalmente riconosciuto)”, `skos:altLabel` come nome alternativo (denominazione commerciale, denominazione colloquiale) e `skos:notation` per indicare un codice di una lista di codici.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organizations are often decomposable into hierarchical structures.  It is recommended that SKOS lexical labels should be used to label the Organization. In particular `skos:prefLabel` for the primary (possibly legally recognized name), `skos:altLabel` for alternative names (trading names, colloquial names) and `skos:notation` to denote a code from a code list. Alternative names: _Collective_ _Body_ _Org_ _Group_</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Représente un groupe de personnes organisées en communauté où tout autre forme de structure sociale, commerciale ou politique. Le groupe a un but commun ou une raison d&apos;être qui va au-delà de la somme des personnes qui en font partie et peut agir en tant que &quot;Agent&quot;. Les organisations sont souvent décomposables en structures hiérarchisées. Il est recommandé que des labels lexicaux SKOS soient utilisés pour nommer l&apos;Organisation. En particulier `skos:prefLabel` pour le nom principal (en général le nom légal), `skos:altLabel` pour les noms alternatifs (marques, sigles, appellations familières) et `skos:notation` pour indiquer un code provenant d&apos;une liste de code.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">コミュニティー、その他の社会、商業、政治的な構造に共に編入された人々の集合を表わします。グループには、そこに属する人々を超えた、存在に対するある共通の目的や理由があり、エージェント（代理）を務めることができます。組織は、多くの場合、階層構造に分割できます。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="fr">Organisation</rdfs:label>
+        <rdfs:label xml:lang="en">Organization</rdfs:label>
+        <rdfs:label xml:lang="it">Organizzazione</rdfs:label>
+        <rdfs:label xml:lang="es">organización</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/org#OrganizationalUnit -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/org#OrganizationalUnit">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:comment xml:lang="en">An Organization such as a University Support Unit which is part of some larger FormalOrganization and only has full recognition within the context of that FormalOrganization, it is not a Legal Entity in its own right. Units can be large and complex containing other Units and even FormalOrganizations. Alternative names: _OU_ _Unit_ _Department_</rdfs:comment>
+        <rdfs:comment xml:lang="es">Organización que forma parte de una organización formal más amplia, como el servicio de informática o centro de cálculo de una universidad, y que sólo tiene reconocimiento pleno en el contexto de dicha organización formal, pero que no es una entidad legal propiamente dicha. Estas unidades pueden ser amplias y complejas, e incluir a otras unidades o incluso a otras organizaciones formales. Denominaciones alternativas: departamento.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un&apos;organizzazione come ad esempio l&apos;unità dei sistemi informativi che è parte di una più grande FormalOrganization e che, pur essendo riconosciuta nel contesto della propria organizzazione di riferimento, non è legalmente riconosciuta come entità a sé stante. Le unità possono essere ampie e complesse e contenere al loro interno sia altre unità che addirittura FormalOrganization.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Une organisation telle que le support informatique d&apos;une université, qui fait partie d&apos;une Organisation Formelle plus importante et qui ne peut être reconnue qu&apos;en tant que membre de cette organisation supérieure, ce n&apos;est pas une entité légale en elle-même. Les unités opérationnelles peuvent être étendues, complexes et inclure elles-mêmes d&apos;autres branches ou Unités Opérationnelles, voire des Organisations Formelles.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">あるより大きな組織の一部であり、その組織の中においてのみ完全に認識される部局や支援部署などの組織です。特に、その単位はそれ自体では法的実体と見なされません。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="en">OrganizationalUnit</rdfs:label>
+        <rdfs:label xml:lang="it">Unità Organizzativa</rdfs:label>
+        <rdfs:label xml:lang="fr">Unité opérationnelle</rdfs:label>
+        <rdfs:label xml:lang="es">unidad organizativa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/org#Post -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/org#Post">
+        <rdfs:comment xml:lang="en">A Post represents some position within an organization that exists independently of the person or persons filling it. Posts may be used to represent situations where a person is a member of an organization ex officio (for example the Secretary of State for Scotland is part of UK Cabinet by virtue of being Secretary of State for Scotland, not as an individual person). A post can be held by multiple people and hence can be treated as a organization in its own right.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Puesto o posición que representa algún tipo de empleo dentro de una organización, que existe independientemente de la persona o personas que lo desempeñan. Esta clase puede utilizarse para representar situaciones en las que una persona es miembro de una organización ex oficio (por ejemplo, el Secretario de Estado escocés es parte del Gabinete del gobierno británico por virtud de ser Secretario de Estado en Escocia, y no como individuo). Un puesto puede ser desempeñado por múltiples individuos y de aquí que sea tratado como una organización en sí misma.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un Impiego rappresenta una posizione all&apos;interno dell&apos;organizzazione che esiste indipendentemente dalla persona che la ricopre. Gli impieghi possono essere utilizzati per le situazioni in cui una persona è membro di un&apos;organizzazione o di un ufficio (ad esempio un segretario di stato). Un Impiego può essere ricoperto da più persone.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Un Poste représente une position au sein d&apos;une Organisation qui existe indépendamment de la personne ou des personnes qui le remplissent. Les postes peuvent être utilisés pour représenter des situations où une personne est membre d&apos;une Organisation d&apos;office (par exemple, le Secrétaire d&apos;Etat pour l&apos;Ecosse fait partie du Cabinet du Royaume-Uni du fait d&apos;être Secrétaire d&apos;Etat pour l&apos;Ecosse, non pas comme une personne physique). Un poste après peut être occupé par plusieurs personnes et peut donc être considéré comme une Organisation à part entière.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">ポストは、それを埋める人（人々）とは無関係に存在する組織内のある位置を表わします。ポストは、人が職権上、組織のメンバーである状況を表わすために使用できます（例えば、スコットランド大臣は、個人としてではなく、スコットランド大臣であることにより、英国内閣の一部です）。ポストは、複数の人々によって保持されることが可能だあるため、それ自体を組織として扱うことができます。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="it">Impiego</rdfs:label>
+        <rdfs:label xml:lang="en">Post</rdfs:label>
+        <rdfs:label xml:lang="fr">Poste</rdfs:label>
+        <rdfs:label xml:lang="es">puesto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/org#Role -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/org#Role">
+        <owl:disjointWith rdf:resource="http://www.w3.org/ns/org#Site"/>
+        <rdfs:comment xml:lang="en">Denotes a role that a Person or other Agent can take in an organization. Instances of this class describe the abstract role; to denote a specific instance of a person playing that role in a specific organization use an instance of `org:Membership`. It is common for roles to be arranged in some taxonomic structure and we use SKOS to represent that. The normal SKOS lexical properties should be used when labelling the Role. Additional descriptive properties for the Role, such as a Salary band, may be added by extension vocabularies.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Función que una persona o agente desempeña en el seno de una organización. Las instancias de esta clase describen la actividad en abstracto; si lo que se pretende es incluir una instancia que refleje la función o actividad que desempeña una persona en concreto en una organización específica, se indica el uso de instancias de la clase `org:Membership`. Es común que dichas actividades se representen en una estructura taxonómica mediante SKOS. Las propiedades léxicas de SKOS deberían utilizarse a la hora de denominar o etiquetar la actividad desempeñada. Para añadir propiedades descriptivas adicionales, como rango salarial, se tendrá que recurrir a vocabularios externos.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Indica il ruolo che una Person o un altro Agent può assumere in un&apos;organizzazione. Le istanze di questa classe descrivono un ruolo astratto; per esprimere il ruolo che una precisa persona ricopre in un&apos;organizzazione si usi un&apos;istanza di `org:Membership`. È comune organizzare i ruoli in una qualche struttura tassonomica e quindi si raccomanda SKOS per questo. Altre proprietà descrittive per il Role, come salario, possono essere aggiunte mediante l&apos;uso di altri vocabolari.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Indique le rôle qu&apos;une Personne ou un autre Agent peut avoir dans une Organisation. Les instances de cette classe décrivent le rôle dans l&apos;absolu; pour indiquer une personne ayant ce rôle spécifique dans une Organisation, utilisez une instance de `org:Membership`. Il est courant que les rôles soient organisés dans une sorte de taxonomie, ce qui peut être représenté avec SKOS. Les propriétés de libellés standards de SKOS devraient être utilisées pour libeller le Rôle. D&apos;autres propriétés additionnelles pour ce rôle, comme une fourchette de Salaire peuvent être ajoutées par une extension de ce vocabulaire.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">人またはその他のエージェントが組織で担うことができる役割を表わします。この種のインスタンスは、抽象的な役割を記述します。特定の組織でその役割を担っている人の特定のインスタンスを示すためには、org:Membershipのインスタンスを使用します。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="en">Role</rdfs:label>
+        <rdfs:label xml:lang="it">Ruolo</rdfs:label>
+        <rdfs:label xml:lang="fr">Rôle</rdfs:label>
+        <rdfs:label xml:lang="es">actividad</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/org#Site -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/org#Site">
+        <rdfs:comment xml:lang="en">An office or other premise at which the organization is located. Many organizations are spread across multiple sites and many sites will host multiple locations. In most cases a Site will be a physical location. However, we don&apos;t exclude the possibility of non-physical sites such as a virtual office with an associated post box and phone reception service. Extensions may provide subclasses to denote particular types of site.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Oficina, local o cualquier otro lugar en el que se encuentra una organización. Muchas organizaciones están distribuidas en varias sedes, que a su vez están repartidas en distintas ubicaciones. En muchos casos una sede será un sitio o local físico. Sin embargo, no se excluye la posibilidad de lugares no físicos como oficinas virtuales con los correspondientes apartados de correo y servicio de atención telefónica. Se pueden añadir más subtipos mediante extensiones para incluir tipos especiales de lugares.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un ufficio o altra sede dovei l&apos;organizzazione è situata. Molte organizzazione sono distribuite su più sedi e molte sedi ospitano più ubicazioni. Nella maggior parte dei casi un Site è una locazione fisica. Non si esclude la possibilità di indicare sedi non fisiche come ad esempio gli uffici virtuali. Le estensioni dell&apos;ontologia potrebbero usare delle sottoclassi per rappresentare i tipi particolari di sede.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Un établissement ou tout autre lieu dans lequel une Organisation est localisé. Beaucoup d&apos;organisations sont dispersées à travers plusieurs sites. Dans la plupart des cas un Site sera un lieu physique. Toutefois, nous n&apos;excluons pas la possibilité de sites non-physiques comme un bureau virtuel avec une boîte postale et un service de secrétariat mutualisé. Des extensions pourraient fournir des sous-classes pour décrire des types de sites particuliers.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">組織が位置するオフィスやその他の敷地。多くの組織が複数のサイトに散在しており、多くのサイトが多数の場所を持つでしょう。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="it">Sede</rdfs:label>
+        <rdfs:label xml:lang="en">Site</rdfs:label>
+        <rdfs:label xml:lang="fr">Site</rdfs:label>
+        <rdfs:label xml:lang="es">sede</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Agent -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Agent">
+        <rdfs:comment>An agent (eg. person, group, software or physical artifact).</rdfs:comment>
+        <rdfs:label>Agent</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Group -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Group">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:comment>A class of Agents.</rdfs:comment>
+        <rdfs:label>Group</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/LabelProperty -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/LabelProperty">
+        <rdfs:comment>A foaf:LabelProperty is any RDF property with texual values that serve as labels.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>Label Property</rdfs:label>
+        <ns:term_status>unstable</ns:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:comment>A person.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>Person</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/mbox">
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <ns:term_status>stable</ns:term_status>
+        <rdfs:comment>A  personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a &apos;static inverse functional property&apos;, in that  there is (across time and change) at most one individual that ever has any particular value for foaf:mbox.</rdfs:comment>
+        <rdfs:label>personal mailbox</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
