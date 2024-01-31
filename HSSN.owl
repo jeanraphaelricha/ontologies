@@ -1208,9 +1208,9 @@ This relation intends to be use as an abstract relation for other location relat
     
 
 
-    <!-- http://spider.sigappfr.org/HSSNdoc/hssn.ttl#latitude_test_change -->
+    <!-- http://spider.sigappfr.org/HSSNdoc/hssn.ttl#latitude -->
 
-    <owl:DatatypeProperty rdf:about="http://spider.sigappfr.org/HSSNdoc/hssn.ttl#latitude_test_change">
+    <owl:DatatypeProperty rdf:about="http://spider.sigappfr.org/HSSNdoc/hssn.ttl#latitude">
         <rdfs:domain rdf:resource="http://spider.sigappfr.org/HSSNdoc/hssn.ttl#p"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
